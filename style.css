@@ -1,0 +1,41 @@
+body{
+    background: grey;
+}
+
+
+
+h1 {
+    background: white;
+    text-align: center;
+    margin: 0%;
+}
+
+#box{
+    background: white;
+    margin: 5% 20% 0% 20%;
+    display: flex;
+}
+
+#titulo {
+    background: yellow;
+    display: flex;
+    flex: 15;
+}
+
+#numero {
+   background: red;
+   display: flex;
+   flex: 1;
+}
+
+#div-img{
+    background: blue;
+    display: flex;
+    margin-left: 300px;
+    margin-top: 0;
+    width: 750px;
+}
+
+#img {
+    width: 150%;
+}
