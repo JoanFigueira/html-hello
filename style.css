@@ -1,41 +1,57 @@
 body{
-    background: grey;
+    background: rgb(190, 189, 189);
 }
-
 
 
 h1 {
     background: white;
-    text-align: center;
-    margin: 0%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 30%;
+    margin: 0;
 }
 
-#box{
+
+#post {
     background: white;
-    margin: 5% 20% 0% 20%;
-    display: flex;
+    margin: 55px 30% 5% 30%;
+
 }
 
-#titulo {
-    background: yellow;
-    display: flex;
-    flex: 15;
+#post-header {
+
 }
 
-#numero {
-   background: red;
-   display: flex;
-   flex: 1;
+#title {
+    float: left;
+    margin-left: 2%;
 }
 
-#div-img{
-    background: blue;
-    display: flex;
-    margin-left: 300px;
-    margin-top: 0;
-    width: 750px;
+#num-pag {
+    float: right;
+    color: grey;
+    margin-right: 2%;
+}
+
+#post-body {
+    
 }
 
 #img {
-    width: 150%;
+    width: 100%;
+}
+
+#post-footer {
+
+}
+
+#footer {
+    text-align: justify;
+    margin: 2% 10% 2% 10%;
+}
+
+#separador {
+    background: rgb(190, 189, 189);
+    height: 60px;
+    width: 100%;
 }
